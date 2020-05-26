@@ -1,5 +1,5 @@
 {
-  "name": "test-app",
+  "name": "synthular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,13 +12,16 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.6",
+    "@angular/cdk": "^9.2.4",
     "@angular/common": "~9.1.6",
     "@angular/compiler": "~9.1.6",
     "@angular/core": "~9.1.6",
     "@angular/forms": "~9.1.6",
+    "@angular/material": "^9.2.4",
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
+    "@ng-web-apis/audio": "^1.2.3",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -41,6 +44,14 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.8.3",
+    "eslint": "^6.8.0",
+    "@angular-eslint/builder": "0.0.1-alpha.32",
+    "@angular-eslint/eslint-plugin": "0.0.1-alpha.32",
+    "@angular-eslint/eslint-plugin-template": "0.0.1-alpha.32",
+    "@angular-eslint/schematics": "0.0.1-alpha.32",
+    "@angular-eslint/template-parser": "0.0.1-alpha.32",
+    "@typescript-eslint/eslint-plugin": "2.31.0",
+    "@typescript-eslint/parser": "2.31.0"
   }
 }
